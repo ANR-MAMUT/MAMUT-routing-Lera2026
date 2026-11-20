@@ -1,0 +1,11 @@
+MAMUT-routing Lera2026 third-party and data-license notice
+==========================================================
+
+This repository holds the Lera2026 benchmark family of MAMUT-routing (https://github.com/ANR-MAMUT/MAMUT-routing). MAMUT-routing is a mixed software and benchmark project. Its source code is MIT-licensed unless a file says otherwise. Benchmark data and generated artifacts are licensed at the benchmark-family level, and the LICENSE file of this repository gives the terms of this family.
+
+Component licensing
+-------------------
+
+- Lera2026 (TDVRPTW and TDVRP): MAMUT-routing generation and curation artifacts are provided under MIT where MAMUT-routing holds the relevant rights. The base data are the Gehring and Homberger (1999) instances as curated in the Sintef2008 family of MAMUT-routing, with IGP (Ichoua-Gendreau-Potvin 2003) travel speeds.
+
+Users redistributing this benchmark family, or a subset of it, should preserve this NOTICE and the README.md and LICENSE files of this repository.
