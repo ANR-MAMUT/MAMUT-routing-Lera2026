@@ -2029,7 +2029,7 @@
             [1.33, 0.67, 1.33, 0.67, 1.33],
             [2.67, 1.33, 2.67, 1.33, 2.67]
         ],
-        "categories_path": "Lera-RC1_10_3.igp.json.gz",
+        "categories_path": "sidecars/n=1000/Lera-RC1_10_3.igp.json.gz",
         "categories_sha256": "8f5134e05513fb99ba4c4d19832c761213775ae3139aa931f67d03e2822472b8",
         "atf_sha256": "695f89393247fd6ac928df423741cbc0d81087af79d1ccb90415459c007b5836"
     },

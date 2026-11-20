@@ -1229,7 +1229,7 @@
             [1.33, 0.67, 1.33, 0.67, 1.33],
             [2.67, 1.33, 2.67, 1.33, 2.67]
         ],
-        "categories_path": "Lera-R2_6_1.igp.json.gz",
+        "categories_path": "sidecars/n=600/Lera-R2_6_1.igp.json.gz",
         "categories_sha256": "8661c16bf566978dd5fa40ced1c3f354698b71ef8ab3e7c0b0d7e93a2e8d5d3b",
         "atf_sha256": "cff46851168e6ee73c40f8db4cd4042e89c8a2d7f2df7b079cb661ab91703ccc"
     },
