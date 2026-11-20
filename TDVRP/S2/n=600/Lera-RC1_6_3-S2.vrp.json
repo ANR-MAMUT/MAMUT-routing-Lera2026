@@ -632,14 +632,14 @@
     },
     "metadata": {
         "authors": "Florian Rascoussier (0nyr)",
-        "base_instance": "Sintef2008/n=600/RC1_6_3",
+        "base_instance": "Sintef2008/VRPTW/n=600/RC1_6_3",
         "category_seed": 10047773817363658528,
         "category_seed_recipe": "int.from_bytes(sha256(b'Lera2026:' + base_name)[:8], 'big'); getrandbits(32) % 3 per pair i<j",
         "generated_at": "2026-07-07",
         "generator": {
             "name": "populate_td_lera2026",
             "version": "1",
-            "source": "MAMUT-routing benchmarks/VRPTW/Sintef2008 (GehHom1999)"
+            "source": "MAMUT-routing benchmarks/Sintef2008/VRPTW (GehHom1999)"
         },
         "notes": "IGP (Ichoua et al. 2003) speed model: Table 1 scenario S2 (rush factor a=2.0) speeds in the Dabia-2013 five-period skeleton (rush at 20-30% and 70-80% of the original horizon, profile [mid, rush, mid, rush, mid]); categories seeded uniform symmetric, shared across the scenario triplet. Minimal TW repair: deadlines lifted to the earliest TD arrival where the raw port left customers unreachable; l_0 lifted to the worst singleton return; periods anchor to the original horizon. Solomon n=100 IGP instances live in Dabia2013.",
         "scenario": {
