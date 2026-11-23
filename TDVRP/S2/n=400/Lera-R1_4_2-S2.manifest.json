@@ -1,0 +1,104 @@
+{
+  "benchmark_revision": "r1",
+  "default_profile": "td-binary64-exact-v1",
+  "family": "Lera2026",
+  "features": [
+    "single-depot",
+    "homogeneous-capacity",
+    "mandatory-visits",
+    "time-dependent-travel"
+  ],
+  "instance": {
+    "path": "TDVRP/S2/n=400/Lera-R1_4_2-S2.vrp.json",
+    "sha256": "074e7ba91f6c05e5a8232849e47248ede1985a4e7e44b68ff5ecc6a8cc7c3486"
+  },
+  "instance_name": "Lera-R1_4_2-S2",
+  "materialization": {
+    "atf_stream_sha256": "a3d76a10131b09e1efd907689a4b5af87a07e271589c152bab256b5b3ab1d5b7",
+    "canonical_atf_sha256": "7ff1879983437b3035142e459e2b6cb9fe8ab59e9dbf1af800c09a5d2a21b7c1",
+    "interpretation": "binary64",
+    "kind": "regenerated",
+    "recipe": {
+      "artifacts": [
+        {
+          "path": ".mamut/artifacts/74fb885fc3b76dcd3ac65cb0b75b0086b89f976d422ea6a9fd398e6d10d2d828/mamut_routing_lib-0.13.0.dev0.tar.gz",
+          "scope": "file",
+          "sha256": "74fb885fc3b76dcd3ac65cb0b75b0086b89f976d422ea6a9fd398e6d10d2d828"
+        },
+        {
+          "path": ".mamut/artifacts/b829e5366f94c6810db090671d2a546cdc06079bf972ee2282f718def94cb9ba/mamut_routing_lib-0.13.0.dev0-cp312-cp312-linux_x86_64.whl",
+          "scope": "file",
+          "sha256": "b829e5366f94c6810db090671d2a546cdc06079bf972ee2282f718def94cb9ba"
+        },
+        {
+          "path": ".mamut/artifacts/21efc05188bca2b25987b5bd302a87169680b8aa234daa6e77b73e6c1c457197/materialization-environment-linux-x86_64.json",
+          "scope": "file",
+          "sha256": "21efc05188bca2b25987b5bd302a87169680b8aa234daa6e77b73e6c1c457197"
+        }
+      ],
+      "callable": "mamut_routing_lib.td.igp.materialize_instance_atfs",
+      "parameters": {
+        "categories_path": "sidecars/n=400/Lera-R1_4_2.igp.json.gz",
+        "speeds": [
+          [
+            0.67,
+            0.33,
+            0.67,
+            0.33,
+            0.67
+          ],
+          [
+            1.33,
+            0.67,
+            1.33,
+            0.67,
+            1.33
+          ],
+          [
+            2.67,
+            1.33,
+            2.67,
+            1.33,
+            2.67
+          ]
+        ],
+        "time_periods": [
+          [
+            0.0,
+            160.8
+          ],
+          [
+            160.8,
+            241.2
+          ],
+          [
+            241.2,
+            562.8
+          ],
+          [
+            562.8,
+            643.2
+          ],
+          [
+            643.2,
+            804.0
+          ]
+        ]
+      }
+    }
+  },
+  "objective": "Duration",
+  "problem": "TDVRP",
+  "sidecars": [
+    {
+      "path": "sidecars/n=400/Lera-R1_4_2.igp.json.gz",
+      "scope": "decompressed",
+      "sha256": "a9c0b5e03d28645a5cd4a8af06e7d615bbc6a78e11859288dc8d4240dc87caca"
+    }
+  ],
+  "specification": "mamut-routing/0.1-review",
+  "units": {
+    "cost": "Lera2026 benchmark time unit",
+    "time": "Lera2026 benchmark time unit"
+  }
+}
