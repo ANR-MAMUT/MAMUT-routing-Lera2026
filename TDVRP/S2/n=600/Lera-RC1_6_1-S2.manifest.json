@@ -96,7 +96,7 @@
       "sha256": "c292a11ad9d6b534fcf2afeead386bd85c5c5ecefe70564caeca4ef7467cc9b0"
     }
   ],
-  "specification": "mamut-routing/0.1-review",
+  "specification": "mamut-routing/0.1",
   "units": {
     "cost": "Lera2026 benchmark time unit",
     "time": "Lera2026 benchmark time unit"
