@@ -1,6 +1,11 @@
 # Changelog: Lera2026 benchmark family
 
-All notable changes to the Lera2026 family are recorded here. The first entry records the creation of this repository. The sections after it hold the changelogs of the 2 former repositories. They keep every entry, fact, date, count and commit reference, with the wording edited for style and the headings moved 2 levels down.
+All notable changes to the Lera2026 family are recorded here. The entry "2026-11: family repository" records the creation of this repository. The sections after it hold the changelogs of the 2 former repositories. They keep every entry, fact, date, count and commit reference, with the wording edited for style and the headings moved 2 levels down.
+
+## 2026-11-26. Improved Duration records
+
+- Florian Rascoussier improved the total route duration for 16 TDVRPTW instances with Kayros 2.0.0.dev0. [Kayros development revision `dba5688`](https://github.com/0nyr/kayros/commit/dba56886167c854d2ae36b627128d6d419f811f4)
+- Replaying those routes without time windows on the corresponding TDVRP instances retained all existing TDVRP incumbents. The native and Python Fraction evaluators independently checked the exact durations and the earliest minimizing departure for each route under the edition `r1` profile, `td-binary64-exact-v1`.
 
 ## 2026-11: family repository
 
